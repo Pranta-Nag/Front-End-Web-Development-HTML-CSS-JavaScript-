@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    
+    <fieldset style="width: fit-content;">
+    <legend style="font-size: larger; font-weight: bold;">HTML 5 Input Form</legend>
+    <form action="" method="post">
+
+    <label for="name">Name</label>
+    <input type="text" required minlength="3" maxlength="20" id="name" name="name" /><br><br>
+
+    <label for="number">Number:</label>
+    <input type="number" min="1" max="10" id="number" name="number" /><br><br>
+
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date" /><br><br>
+
+    <label for="time">Time</label>
+    <input type="time" id="time" name="time" /><br><br>
+
+    <label for="week">Week</label>
+    <input type="week" id="week" name="week" /><br><br>
+
+    <label for="month">Month</label>
+    <input type="month" id="month" name="month" /><br><br>
+
+    <label for="url">Url</label>
+    <input type="url" id="url" name="url" /><br><br>
+
+    <label for="range">Range</label>
+    <input type="range" min="1" max="10" id="range" name="range" /><br><br>
+
+    <label for="color">Color</label>
+    <input type="color" id="color" name="color" /><br><br>
+    
+    <label for="browser">Browser</label>
+    <input list="browsers" id="browser" name="browser" /><br><br>
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+        <option value="Edge">
+    </datalist>
+
+    <button type="submit">Save</button>
+    <input type="reset">
+    </form>
+    </fieldset>
+
+</body>
+</html>
