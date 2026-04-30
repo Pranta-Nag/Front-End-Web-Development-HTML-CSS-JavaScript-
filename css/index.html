@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS with HTML</title>
+
+    <style> 
+    .mySection{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .myhome, .myAbout{
+        flex: 1;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .myhome{
+        background-color: #f0f0f0;
+    }
+
+    .myAbout{
+        background-color: violet;
+    }
+
+    .resources, .features{
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .resources{
+        background-color: firebrick;
+        color: white;
+    }
+
+    .features{
+        background-color: lightblue;
+    }
+</style>
+    </style>
+
+</head>
+<body>
+
+    <section class="mySection">
+        <div class="myhome">
+            <h1>Home</h1>
+            <p>Welcome to the CSS learning page! Here you can find resources and tutorials to help you understand and master CSS.</p>
+        
+            <div class="resources">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/css/">W3Schools CSS Tutorial</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs - CSS</a></li>
+                    <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                </ul>
+            </div>
+        
+        </div>
+        <div class="myAbout">
+            <h2>About</h2>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. It allows you to control the layout, colors, fonts, and overall appearance of your web pages.</p>
+        
+        <div class="features">
+            <h3>Features of CSS</h3>
+            <ul>
+                <li>Cascading</li>
+                <li>Selectors</li>
+                <li>Box Model</li>
+            </ul>
+        </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
